@@ -27,6 +27,7 @@ Route::group(['prefix' => 'front'], function () {
 
     Route::group(['middleware'=>'auth:client'],function(){
 
+//mostafa
 
     Route::get('index', 'FrontController@index');
 
